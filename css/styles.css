@@ -14,7 +14,7 @@ h1 {
 
 }
 h2 {
-  font-family: 'Luckiest Guy', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
 }
 
@@ -37,7 +37,7 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
-.hello{
+h2.hello{
   font-family: 'Luckiest Guy', cursive;
 }
 .intro{
