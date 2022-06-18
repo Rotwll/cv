@@ -38,13 +38,13 @@ h3 {
   bottom: 300px;
 }
 
-h3.schools{
+h3:schools{
   font-family: 'Luckiest Guy', cursive;
 }
-h2.hello{
+h2:hello{
   font-family: 'Montserrat', cursive;
 }
-h2.MySkills{
+h2:MySkills{
   font-family: 'Luckiest Guy', cursive;
 }
 
