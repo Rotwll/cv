@@ -40,6 +40,9 @@ h3 {
 .hello{
   font-family: 'Luckiest Guy', cursive;
 }
+.intro{
+  font-family: 'Nunito', sans-serif;
+}
 
 .top-cloud {
   position: absolute;
