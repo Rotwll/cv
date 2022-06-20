@@ -40,6 +40,7 @@ h3 {
 
 .ProjectDiscriptions{
   width: 464px;
+  font-size: 1em;
 }
 .schools{
   font-family: 'Luckiest Guy', cursive;
@@ -80,7 +81,7 @@ h3 {
 }
 .big{
   font-size: 250%;
-  font-family: cursive;
+  /*font-family: cursive;*/
 }
 hr{
   border: solid 6px; 
