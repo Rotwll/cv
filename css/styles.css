@@ -33,9 +33,9 @@ h3 {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+  position: relative;
+  left: -30%;
+  bottom: 30%;
 }
 
 .ProjectDiscriptions{
@@ -71,8 +71,8 @@ h3 {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
+  position: relative;
+  right: -30%;
   top: 50px;
 }
 .skills{
@@ -89,8 +89,8 @@ hr{
 }
 
 .mountain{
-  width: 500px;
-  height: 300px;
+  width: 27%;
+  height: 40%;
 }
 
 .btn {
@@ -130,7 +130,7 @@ a{
 
 }
 a:hover{
-  color: #eaf6f6
+  color: #ff0000
 
 }
 .footer-link{
@@ -138,6 +138,6 @@ a:hover{
 }
 .copyright{
   color: #eaf6f6;
-  font-size: 0.75rem;
+  font-size: 0.76rem;
   padding: 20px 0;
 }
