@@ -71,8 +71,11 @@ h3 {
   margin: auto;
 }
 hr{
-  border: dotted; #EAF6F6 6px;
+  border: solid; #EAF6F6 6px;
 }
+
+
+
 .btn {
 background: #11cdd4;
 background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
