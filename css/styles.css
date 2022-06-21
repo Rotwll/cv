@@ -9,24 +9,60 @@ body {
 }
 
 h1 {
-  width: 10%;
+  width: 60%;
   margin: 0 auto 0 auto
 
 }
+
 h2 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: normal;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h4 {
+  font-family: 'Ubuntu',serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+table{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: left;
+ font-family: 'Nunito', sans-serif;
+}
+
+hr{
+  border: solid 6px;
+  color:#EAF6F6;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
-  height: 350px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.top-cloud {
+  position: relative;
+  right: -30%;
+  top: 2em;
+}
+
+.hello{
+  font-family: 'Montserrat', cursive;
+  font-weight: 500;
+}
+
+.big{
+  font-size: 250%;
+  /*font-family: cursive;*/
 }
 
 .pro {
@@ -36,27 +72,19 @@ h3 {
 .bottom-cloud {
   position: relative;
   left: -30%;
-  bottom: 30%;
+  bottom: 2em;
 }
 
-.ProjectDiscriptions{
-  width: 464px;
-  font-size: 1em;
+.intro{
+  font-size: 1.2em;
+  width: 60%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: auto;
 }
+
 .schools{
-  font-family: 'Luckiest Guy', cursive;
-}
-.hello{
-  font-family: 'Montserrat', cursive;
-  font-weight: 500;
-}
-.MySkills{
-  font-family: 'Luckiest Guy', cursive;
-  color: #000000;
-}
-
-.videos{
-  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.2em;
 }
 
 .video-wraper {
@@ -64,6 +92,8 @@ h3 {
   width: 60%;
   padding-bottom: 33.75%; /* 16:9 */
   height: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .video-wraper iframe {
   position: absolute;
@@ -73,36 +103,20 @@ h3 {
   height: 100%;
 }
 
-.intro{
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.4em;
+
+.ProjectDiscriptions{
   width: 60%;
-  margin: auto;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.top-cloud {
-  position: relative;
-  right: -30%;
-  top: 50px;
-}
+
 .skills{
   color: #1B03A3;
-  line-height: 2;
-}
-.big{
-  font-size: 250%;
-  /*font-family: cursive;*/
-}
-hr{
-  border: solid 6px; 
-  color:#EAF6F6;
+  line-height: 2em;
 }
 
-.mountain{
-  width: 17.5%;
-  height: 40%;
-  position: relative;
-}
 
 .btn {
 background: #11cdd4;
@@ -116,7 +130,7 @@ background-image: linear-gradient(to bottom, #11cdd4, #11999e);
 border-radius: 8px;
 font-family: Arial;
 color: #ffffff;
-font-size: 20px;
+font-size: 1em;
 padding: 10px 20px 10px 20px;
 text-decoration: none;
 
@@ -149,6 +163,6 @@ a:hover{
 }
 .copyright{
   color: #eaf6f6;
-  font-size: 1 rem;
+  font-size: 1em;
   padding: 20px 0;
 }
